@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45350C4B1A08FB7300FBA393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45350C4A1A08FB7300FBA393 /* AppDelegate.swift */; };
+		45350C4D1A08FB7300FBA393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45350C4C1A08FB7300FBA393 /* ViewController.swift */; };
+		45350C501A08FB7300FBA393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45350C4E1A08FB7300FBA393 /* Main.storyboard */; };
+		45350C521A08FB7300FBA393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45350C511A08FB7300FBA393 /* Images.xcassets */; };
+		45350C551A08FB7300FBA393 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45350C531A08FB7300FBA393 /* LaunchScreen.xib */; };
+		45350C611A08FB7300FBA393 /* rssmusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45350C601A08FB7300FBA393 /* rssmusicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45350C5B1A08FB7300FBA393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45350C3D1A08FB7300FBA393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45350C441A08FB7300FBA393;
+			remoteInfo = rssmusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45350C451A08FB7300FBA393 /* rssmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rssmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45350C491A08FB7300FBA393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45350C4A1A08FB7300FBA393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45350C4C1A08FB7300FBA393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45350C4F1A08FB7300FBA393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45350C511A08FB7300FBA393 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45350C541A08FB7300FBA393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		45350C5A1A08FB7300FBA393 /* rssmusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rssmusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45350C5F1A08FB7300FBA393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45350C601A08FB7300FBA393 /* rssmusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rssmusicTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45350C421A08FB7300FBA393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45350C571A08FB7300FBA393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45350C3C1A08FB7300FBA393 = {
+			isa = PBXGroup;
+			children = (
+				45350C471A08FB7300FBA393 /* rssmusic */,
+				45350C5D1A08FB7300FBA393 /* rssmusicTests */,
+				45350C461A08FB7300FBA393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45350C461A08FB7300FBA393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45350C451A08FB7300FBA393 /* rssmusic.app */,
+				45350C5A1A08FB7300FBA393 /* rssmusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45350C471A08FB7300FBA393 /* rssmusic */ = {
+			isa = PBXGroup;
+			children = (
+				45350C4A1A08FB7300FBA393 /* AppDelegate.swift */,
+				45350C4C1A08FB7300FBA393 /* ViewController.swift */,
+				45350C4E1A08FB7300FBA393 /* Main.storyboard */,
+				45350C511A08FB7300FBA393 /* Images.xcassets */,
+				45350C531A08FB7300FBA393 /* LaunchScreen.xib */,
+				45350C481A08FB7300FBA393 /* Supporting Files */,
+			);
+			path = rssmusic;
+			sourceTree = "<group>";
+		};
+		45350C481A08FB7300FBA393 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45350C491A08FB7300FBA393 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45350C5D1A08FB7300FBA393 /* rssmusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				45350C601A08FB7300FBA393 /* rssmusicTests.swift */,
+				45350C5E1A08FB7300FBA393 /* Supporting Files */,
+			);
+			path = rssmusicTests;
+			sourceTree = "<group>";
+		};
+		45350C5E1A08FB7300FBA393 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45350C5F1A08FB7300FBA393 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45350C441A08FB7300FBA393 /* rssmusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45350C641A08FB7300FBA393 /* Build configuration list for PBXNativeTarget "rssmusic" */;
+			buildPhases = (
+				45350C411A08FB7300FBA393 /* Sources */,
+				45350C421A08FB7300FBA393 /* Frameworks */,
+				45350C431A08FB7300FBA393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rssmusic;
+			productName = rssmusic;
+			productReference = 45350C451A08FB7300FBA393 /* rssmusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45350C591A08FB7300FBA393 /* rssmusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45350C671A08FB7300FBA393 /* Build configuration list for PBXNativeTarget "rssmusicTests" */;
+			buildPhases = (
+				45350C561A08FB7300FBA393 /* Sources */,
+				45350C571A08FB7300FBA393 /* Frameworks */,
+				45350C581A08FB7300FBA393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45350C5C1A08FB7300FBA393 /* PBXTargetDependency */,
+			);
+			name = rssmusicTests;
+			productName = rssmusicTests;
+			productReference = 45350C5A1A08FB7300FBA393 /* rssmusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45350C3D1A08FB7300FBA393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Hiroyuki Tsujino";
+				TargetAttributes = {
+					45350C441A08FB7300FBA393 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					45350C591A08FB7300FBA393 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 45350C441A08FB7300FBA393;
+					};
+				};
+			};
+			buildConfigurationList = 45350C401A08FB7300FBA393 /* Build configuration list for PBXProject "rssmusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45350C3C1A08FB7300FBA393;
+			productRefGroup = 45350C461A08FB7300FBA393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45350C441A08FB7300FBA393 /* rssmusic */,
+				45350C591A08FB7300FBA393 /* rssmusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45350C431A08FB7300FBA393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45350C501A08FB7300FBA393 /* Main.storyboard in Resources */,
+				45350C551A08FB7300FBA393 /* LaunchScreen.xib in Resources */,
+				45350C521A08FB7300FBA393 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45350C581A08FB7300FBA393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45350C411A08FB7300FBA393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45350C4D1A08FB7300FBA393 /* ViewController.swift in Sources */,
+				45350C4B1A08FB7300FBA393 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45350C561A08FB7300FBA393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45350C611A08FB7300FBA393 /* rssmusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45350C5C1A08FB7300FBA393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45350C441A08FB7300FBA393 /* rssmusic */;
+			targetProxy = 45350C5B1A08FB7300FBA393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45350C4E1A08FB7300FBA393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45350C4F1A08FB7300FBA393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45350C531A08FB7300FBA393 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45350C541A08FB7300FBA393 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45350C621A08FB7300FBA393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45350C631A08FB7300FBA393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45350C651A08FB7300FBA393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rssmusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45350C661A08FB7300FBA393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = rssmusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45350C681A08FB7300FBA393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rssmusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rssmusic.app/rssmusic";
+			};
+			name = Debug;
+		};
+		45350C691A08FB7300FBA393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = rssmusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rssmusic.app/rssmusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45350C401A08FB7300FBA393 /* Build configuration list for PBXProject "rssmusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45350C621A08FB7300FBA393 /* Debug */,
+				45350C631A08FB7300FBA393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45350C641A08FB7300FBA393 /* Build configuration list for PBXNativeTarget "rssmusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45350C651A08FB7300FBA393 /* Debug */,
+				45350C661A08FB7300FBA393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45350C671A08FB7300FBA393 /* Build configuration list for PBXNativeTarget "rssmusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45350C681A08FB7300FBA393 /* Debug */,
+				45350C691A08FB7300FBA393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45350C3D1A08FB7300FBA393 /* Project object */;
+}
