@@ -32,6 +32,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
 
-
+    @IBOutlet var appsTableViews : UITableView?
+    
+    var tableData = []
+    
 }
 
