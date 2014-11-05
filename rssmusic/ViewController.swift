@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+    
+    @IBOutlet var appsTableViews : UITableView?
+    
+    var tableData = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +31,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "MyTestCell")
+        
         let rowData: NSDictionary = self.tableData[indexPath.row] as NSDictionary
         
         cell.textLabel.text = rowData["trackName"] as? String
@@ -47,9 +52,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
 
-    @IBOutlet var appsTableViews : UITableView?
-    
-    var tableData = []
+
     
     func searchITunesFor(searchTerm: String) {
         // The iTunes API wants multiple terms separated by + symbols, so replace spaces with + signs
