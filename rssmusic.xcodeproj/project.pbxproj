@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		45350C4B1A08FB7300FBA393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45350C4A1A08FB7300FBA393 /* AppDelegate.swift */; };
-		45350C4D1A08FB7300FBA393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45350C4C1A08FB7300FBA393 /* ViewController.swift */; };
+		45350C4D1A08FB7300FBA393 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45350C4C1A08FB7300FBA393 /* SearchResultsViewController.swift */; };
 		45350C501A08FB7300FBA393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45350C4E1A08FB7300FBA393 /* Main.storyboard */; };
 		45350C521A08FB7300FBA393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45350C511A08FB7300FBA393 /* Images.xcassets */; };
 		45350C551A08FB7300FBA393 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45350C531A08FB7300FBA393 /* LaunchScreen.xib */; };
@@ -29,7 +29,7 @@
 		45350C451A08FB7300FBA393 /* rssmusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rssmusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45350C491A08FB7300FBA393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45350C4A1A08FB7300FBA393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45350C4C1A08FB7300FBA393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45350C4C1A08FB7300FBA393 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		45350C4F1A08FB7300FBA393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45350C511A08FB7300FBA393 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		45350C541A08FB7300FBA393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				45350C4A1A08FB7300FBA393 /* AppDelegate.swift */,
-				45350C4C1A08FB7300FBA393 /* ViewController.swift */,
+				45350C4C1A08FB7300FBA393 /* SearchResultsViewController.swift */,
 				45350C4E1A08FB7300FBA393 /* Main.storyboard */,
 				45350C511A08FB7300FBA393 /* Images.xcassets */,
 				45350C531A08FB7300FBA393 /* LaunchScreen.xib */,
@@ -212,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45350C4D1A08FB7300FBA393 /* ViewController.swift in Sources */,
+				45350C4D1A08FB7300FBA393 /* SearchResultsViewController.swift in Sources */,
 				45350C4B1A08FB7300FBA393 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +407,7 @@
 				45350C661A08FB7300FBA393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45350C671A08FB7300FBA393 /* Build configuration list for PBXNativeTarget "rssmusicTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				45350C691A08FB7300FBA393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class SearchResultsViewController : UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     @IBOutlet var appsTableViews : UITableView?
     
