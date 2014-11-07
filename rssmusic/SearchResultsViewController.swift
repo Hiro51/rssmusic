@@ -8,17 +8,19 @@
 
 import UIKit
 
-class SearchResultsViewController : UIViewController, UITableViewDataSource, UITableViewDelegate{
+class SearchResultsViewController : UIViewController, UITableViewDataSource, UITableViewDelegate, APIControllerProtocol {
     
     @IBOutlet var appsTableViews : UITableView?
     
     var tableData = []
+    
+    var api = APIController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        searchITunesFor("JQ Software")
+        api.searchITunesFor("Angry Birds")
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,38 +53,14 @@ class SearchResultsViewController : UIViewController, UITableViewDataSource, UIT
         
         return cell
     }
-
-
     
-    func searchITunesFor(searchTerm: String) {
-        // The iTunes API wants multiple terms separated by + symbols, so replace spaces with + signs
-        let itunesSearchTerm = searchTerm.stringByReplacingOccurrencesOfString(" ", withString: "+", options: NSStringCompareOptions.CaseInsensitiveSearch, range: nil)
-            
-        // Now escape anything else that isn't URL-friendly
-            if let escapedSearchTerm = itunesSearchTerm.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding) {
-                let urlPath = "http://itunes.apple.com/search?term=\(escapedSearchTerm)&media=software"
-                let url = NSURL(string: urlPath)
-                let session = NSURLSession.sharedSession()
-                let task = session.dataTaskWithURL(url!, completionHandler: {data, response, error -> Void in println("Task completed")
-                    if(error != nil) {
-                        // If there is an error in the web request, print it to the console
-                        println(error.localizedDescription)
-                    }
-                    var err: NSError?
-                    
-                    var jsonResult = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.MutableContainers, error: &err) as NSDictionary
-                    if(err != nil) {
-                        // If there is an error parsing JSON, print it to the console
-                        println("Json Errror \(err!.localizedDescription)")
-                    }
-                    let results: NSArray = jsonResult["results"] as NSArray
-                    dispatch_async(dispatch_get_main_queue(), {
-                        self.tableData = results
-                        self.appsTableViews!.reloadData()
-                    })
-                })
-                task.resume()
-        }
+    func didReceiveAPIResults(results: NSDictionary) {
+        var resultsArr: NSArray = results["results"] as NSArray
+        dispatch_async(dispatch_get_main_queue(), {
+            self.tableData = resultsArr
+            self.appsTableViews!.reloadData()
+        })
     }
+
 }
     

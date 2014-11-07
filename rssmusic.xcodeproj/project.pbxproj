@@ -13,6 +13,7 @@
 		45350C521A08FB7300FBA393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45350C511A08FB7300FBA393 /* Images.xcassets */; };
 		45350C551A08FB7300FBA393 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45350C531A08FB7300FBA393 /* LaunchScreen.xib */; };
 		45350C611A08FB7300FBA393 /* rssmusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45350C601A08FB7300FBA393 /* rssmusicTests.swift */; };
+		45350C6B1A0CA00C00FBA393 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45350C6A1A0CA00C00FBA393 /* APIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		45350C5A1A08FB7300FBA393 /* rssmusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rssmusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45350C5F1A08FB7300FBA393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45350C601A08FB7300FBA393 /* rssmusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rssmusicTests.swift; sourceTree = "<group>"; };
+		45350C6A1A0CA00C00FBA393 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				45350C4A1A08FB7300FBA393 /* AppDelegate.swift */,
 				45350C4C1A08FB7300FBA393 /* SearchResultsViewController.swift */,
 				45350C4E1A08FB7300FBA393 /* Main.storyboard */,
+				45350C6A1A0CA00C00FBA393 /* APIController.swift */,
 				45350C511A08FB7300FBA393 /* Images.xcassets */,
 				45350C531A08FB7300FBA393 /* LaunchScreen.xib */,
 				45350C481A08FB7300FBA393 /* Supporting Files */,
@@ -214,6 +217,7 @@
 			files = (
 				45350C4D1A08FB7300FBA393 /* SearchResultsViewController.swift in Sources */,
 				45350C4B1A08FB7300FBA393 /* AppDelegate.swift in Sources */,
+				45350C6B1A0CA00C00FBA393 /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
