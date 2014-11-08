@@ -14,6 +14,11 @@ protocol APIControllerProtocol {
 }
 
 class APIController {
+    var delegate: APIControllerProtocol?
+    
+    init () {
+    }
+    
     func searchITunesFor(searchTerm: String) {
         // The iTunes API wants multiple terms separated by + symbols, so replace spaces with + signs
         let itunesSearchTerm = searchTerm.stringByReplacingOccurrencesOfString(" ", withString: "+", options: NSStringCompareOptions.CaseInsensitiveSearch, range: nil)
@@ -36,6 +41,7 @@ class APIController {
                     println("Json Errror \(err!.localizedDescription)")
                 }
                 let results: NSArray = jsonResult["results"] as NSArray
+                self.delegate?.didReceiveAPIResults(jsonResult)
             })
             task.resume()
         }
