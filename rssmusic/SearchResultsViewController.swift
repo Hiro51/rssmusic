@@ -13,8 +13,8 @@ class SearchResultsViewController : UIViewController, UITableViewDataSource, UIT
     @IBOutlet var appsTableViews : UITableView?
     
     var tableData = []
-    
     var api = APIController()
+    let kCellIdentifier: String = "SearchResultCell"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,7 @@ class SearchResultsViewController : UIViewController, UITableViewDataSource, UIT
         return tableData.count
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "MyTestCell")
+        let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(kCellIdentifier) as UITableViewCell
         
         let rowData: NSDictionary = self.tableData[indexPath.row] as NSDictionary
         
