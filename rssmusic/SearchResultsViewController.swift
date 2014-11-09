@@ -21,6 +21,7 @@ class SearchResultsViewController : UIViewController, UITableViewDataSource, UIT
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         api = APIController(delegate: self)
+        UIApplication.sharedApplication().networkActivityIndicatorVisible = true
         api!.searchITunesFor("JQ Software")
     }
 
