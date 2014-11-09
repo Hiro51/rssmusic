@@ -13,16 +13,15 @@ class SearchResultsViewController : UIViewController, UITableViewDataSource, UIT
     @IBOutlet var appsTableViews : UITableView?
     
     var tableData = []
-    var api = APIController()
+    var api : APIController?
     let kCellIdentifier: String = "SearchResultCell"
     var imageCache = [String : UIImage]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        api.searchITunesFor("Angry Birds")
-        self.api.delegate = self
-    
+        api = APIController(delegate: self)
+        api!.searchITunesFor("JQ Software")
     }
 
     override func didReceiveMemoryWarning() {
