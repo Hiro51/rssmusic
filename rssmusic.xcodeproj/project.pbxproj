@@ -14,6 +14,7 @@
 		45350C551A08FB7300FBA393 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45350C531A08FB7300FBA393 /* LaunchScreen.xib */; };
 		45350C611A08FB7300FBA393 /* rssmusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45350C601A08FB7300FBA393 /* rssmusicTests.swift */; };
 		45350C6B1A0CA00C00FBA393 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45350C6A1A0CA00C00FBA393 /* APIController.swift */; };
+		458C79591A0E7932001C712B /* Blank52.png in Resources */ = {isa = PBXBuildFile; fileRef = 458C79581A0E7932001C712B /* Blank52.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		45350C5F1A08FB7300FBA393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45350C601A08FB7300FBA393 /* rssmusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rssmusicTests.swift; sourceTree = "<group>"; };
 		45350C6A1A0CA00C00FBA393 /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		458C79581A0E7932001C712B /* Blank52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blank52.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				45350C6A1A0CA00C00FBA393 /* APIController.swift */,
 				45350C511A08FB7300FBA393 /* Images.xcassets */,
 				45350C531A08FB7300FBA393 /* LaunchScreen.xib */,
+				458C79581A0E7932001C712B /* Blank52.png */,
 				45350C481A08FB7300FBA393 /* Supporting Files */,
 			);
 			path = rssmusic;
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45350C501A08FB7300FBA393 /* Main.storyboard in Resources */,
+				458C79591A0E7932001C712B /* Blank52.png in Resources */,
 				45350C551A08FB7300FBA393 /* LaunchScreen.xib in Resources */,
 				45350C521A08FB7300FBA393 /* Images.xcassets in Resources */,
 			);
